@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html{
+    background: black;
+  height: 100%;
+}
+
+body{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
